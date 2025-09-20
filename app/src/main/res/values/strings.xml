@@ -15,5 +15,9 @@ dirancang untuk memberikan pendidikan berkualitas, menggabungkan aspek
 praktis dan teoritis dari informatika, seperti pemrograman, sistem
 informasi, jaringan komputer, dan kecerdasan buatan.</string>
     <string name="next">Next</string>
-
+    <string name="telepon">081234567890</string>"
+    <string name="alamat">Blater bos</string>"
+    <string name="email">mhs.unsoed.ac.id</string>"
+    <string name="ig_himpunan">hmif.unsoed</string>"
+    <string name="back">Back</string>
 </resources>

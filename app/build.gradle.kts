@@ -7,6 +7,11 @@ android {
     namespace = "com.example.ifunsoedmobile"
     compileSdk = 36
 
+    buildFeatures {
+        dataBinding = true // Atau jika hanya butuh akses view, lebih ringan pakai viewBinding
+         viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.ifunsoedmobile"
         minSdk = 24
@@ -36,12 +41,14 @@ android {
 }
 
 dependencies {
+    implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("com.google.android.material:material:1.13.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
