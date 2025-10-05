@@ -41,6 +41,7 @@ android {
 }
 
 dependencies {
+    implementation("com.github.bumptech.glide:glide:5.0.0-rc01")
     implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("com.google.android.material:material:1.13.0")
     implementation("com.squareup.retrofit2:retrofit:3.0.0")
